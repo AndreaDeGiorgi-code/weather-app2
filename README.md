@@ -1,4 +1,6 @@
 Documentazione del Progetto: Weather App
+
+
 🌍 Introduzione
 Weather App è un'applicazione web che fornisce informazioni meteo in tempo reale per qualsiasi città. Utilizza Spring Boot per il back-end e consente agli utenti di cercare previsioni meteo per città selezionate.
 
