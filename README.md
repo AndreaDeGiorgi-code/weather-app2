@@ -1,10 +1,10 @@
 Documentazione del Progetto: Weather App
-Introduzione
+🌍 Introduzione
 Weather App è un'applicazione web che fornisce informazioni meteo in tempo reale per qualsiasi città. Utilizza Spring Boot per il back-end e consente agli utenti di cercare previsioni meteo per città selezionate.
 
 L'applicazione si connette a un'API meteo esterna per raccogliere i dati aggiornati e visualizzarli in un'interfaccia semplice e user-friendly.
 
-Tecnologie Utilizzate
+🛠️ Tecnologie Utilizzate
 Spring Boot: Framework per il back-end basato su Java.
 
 Maven: Strumento di gestione delle dipendenze e build.
@@ -15,15 +15,15 @@ API meteo: L'applicazione si connette a un'API esterna per ottenere i dati meteo
 
 Java: Linguaggio di programmazione principale.
 
-Come Avviare il Progetto
-Prerequisiti
+🚀 Come Avviare il Progetto
+📋 Prerequisiti
 Java 17 o superiore.
 
 Maven.
 
 Docker (opzionale, per l'uso di container).
 
-Passaggi
+📝 Passaggi
 Clonare il repository (o estrarre il progetto in una cartella locale):
 
 bash
@@ -68,7 +68,7 @@ docker run -p 8080:8080 weather-app
 Verifica:
 Dopo aver avviato il progetto, apri un browser e naviga su http://localhost:8080 per vedere l'applicazione in esecuzione.
 
-Struttura del Progetto
+🗂️ Struttura del Progetto
 La struttura del progetto è la seguente:
 
 css
@@ -102,7 +102,7 @@ target/: Cartella generata durante la compilazione, contiene i file compilati.
 
 docker-compose.yml e Dockerfile: File di configurazione per eseguire il progetto in un contenitore Docker.
 
-API Endpoints
+🧑‍💻 API Endpoints
 Se il progetto espone API, ad esempio per ottenere le previsioni meteo, qui puoi descrivere gli endpoint.
 
 /api/weather
@@ -120,7 +120,7 @@ Risposta:
 
 400 Bad Request: Se il nome della città non è valido o manca un parametro.
 
-Autori e Licenza
+👨‍💻 Autori e Licenza
 Autore: Andrea De Giorgi
 
 Licenza: MIT License
