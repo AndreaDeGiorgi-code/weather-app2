@@ -29,26 +29,21 @@ Docker (opzionale, per l'uso di container).
 Clonare il repository (o estrarre il progetto in una cartella locale):
 
 bash
-Copia
-Modifica
+
 git clone <URL_del_tuo_repository>
 Naviga nella cartella del progetto:
 
 bash
-Copia
-Modifica
+
 cd weather-app
 Esegui l'applicazione con Maven:
 
 bash
-Copia
-Modifica
+
 ./mvnw spring-boot:run
 O se stai usando Windows:
 
-bash
-Copia
-Modifica
+
 mvnw.cmd spring-boot:run
 Il progetto sarà ora accessibile su http://localhost:8080.
 
@@ -57,16 +52,12 @@ Se hai Docker installato, puoi eseguire l'applicazione in un container:
 
 Costruisci l'immagine Docker:
 
-bash
-Copia
-Modifica
 docker build -t weather-app .
+
 Avvia il container:
 
-bash
-Copia
-Modifica
 docker run -p 8080:8080 weather-app
+
 Verifica:
 Dopo aver avviato il progetto, apri un browser e naviga su http://localhost:8080 per vedere l'applicazione in esecuzione.
 
@@ -74,8 +65,7 @@ Dopo aver avviato il progetto, apri un browser e naviga su http://localhost:8080
 La struttura del progetto è la seguente:
 
 css
-Copia
-Modifica
+
 weather-app/
 │
 ├── weather-app/
